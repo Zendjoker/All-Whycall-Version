@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
+.rightbar {
+  flex: 3.05;
+  margin-left: 40px;
+  box-sizing:content-box;
+	font-family: 'Jost', sans-serif;
+	position: sticky;
+	position: -webkit-sticky;
+  position: sticky;
+  overflow-y: scroll;
+  top: 0;
+	width: 300px;
+	height: 800px;
+  margin-top: 50;
+}
+
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+.birthdayContainer {
+  
+  display: flex;
+  align-items: center;
+}
+
+.birthdayImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.birthdayText {
+
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.rightbarAd {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+  border-radius: 10px;
+}
+
+.rightbarTitle{
+    margin-bottom: 20px;
+    
+}
+
+.rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+}
+
+.rightbarTitle{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  
+}
+
+.rightbarInfo{
+  margin-bottom: 30px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.rightbarInfoItem{
+  margin-bottom: 10px;
+ ;
+}
+
+.rightbarInfoKey{
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+  
+}
+
+.rightbarInfoValue{
+  font-weight: 300;
+}
+
+.rightbarFollowings{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.rightbarFollowing{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rightbarFollowingImg{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 30%;
+}
+
+.rightbarFollowButton{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #acc2e0;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.rightbarFollowButton:focus{
+  outline: none;
+}
+
+.Publicite{
+  border-radius: 40px;
+  
+}
+.Publicitewhycall{
+  border-radius: 50px;
+  margin: 5px;
+  transition: 1s;
+}
+.rightbarclickpar{
+  margin-top: 0;
+  position:absolute;
+  top: -8.5%;
+  font-size: 25px;
+list-style: none;
+padding-left: 0;
+display: inline-block;
+justify-content: space-between;
+
+height: 100%;
+}
+.rightbarclickicon{
+  justify-content: space-between;
+  margin-right: 20px;
+  margin: 5px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.rightbarclickpar>li{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 22px;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: 'Jost', sans-serif;
+  
+}

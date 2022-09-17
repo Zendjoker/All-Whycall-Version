@@ -1,0 +1,11 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+    background-color:#F0F2F5 ;
+}
+.acceuilalign{
+    display: flex;
+    width: 100%;
+    background-color:#F0F2F5 ;
+    margin-top:50px ;
+}
